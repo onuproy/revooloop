@@ -55,32 +55,31 @@ jQuery(document).ready(function(){
 		items: 1,
 	});
 
-
 	
-	// Hero owlCarousel
-	// jQuery('.').owlCarousel({
-	// 	loop: true,
-	// 	margin: 25,
-	// 	nav: true,
-	// 	autoplay: false,
-	// 	navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-	// 	dots: false,
-	// 	responsive: {
-	// 		0: {
-	// 			items: 1,
-	// 		},
-	// 		576: {
-	// 			items: 2,
+	// Categoris owlCarousel
+	jQuery('.product_items_area_1').owlCarousel({
+		loop: true,
+		margin: 20,
+		nav: true,
+		autoplay: false,
+		navText: ['<img src="assets/images/icon/Layer_2.png">', '<img src="assets/images/icon/Layer_3.png">'],
+		dots: false,
+		responsive: {
+			0: {
+				items: 2,
+			},
+			576: {
+				items: 2,
 
-	// 		},
-	// 		768: {
-	// 			items: 2,
-	// 		},
-	// 		1200: {
-	// 			items: 3,
-	// 		}
-	// 	}
-	// });
+			},
+			768: {
+				items: 3,
+			},
+			1200: {
+				items: 4,
+			}
+		}
+	});
 
 
 

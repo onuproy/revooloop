@@ -464,7 +464,7 @@ img{
  
 }
 .categoris_section {
-	/* background: url('../images/banner/categoris-bg.png') no-repeat scroll; */
+	background: url('../images/banner/categoris-bg.png') no-repeat scroll;
 	background-size: 100% 100%;
 }
 .tabs_categoris_item ul {
@@ -498,4 +498,107 @@ img{
 	width: 66.53px;
 	height: 66.53px;
 	margin-bottom: 18px;
+}
+
+.p_single_items{
+	background: #FFFFFF;
+	box-shadow: 0px 4px 28px rgba(113, 62, 201, 0.1);
+	border-radius: 8px;
+	padding: 40px;
+}
+.p_single_items img {
+	width: 100%;
+	padding-bottom: 24px;
+}
+.p_single_items h5 {
+	font-size: 17px;
+	line-height: 130%;
+	text-align: center;
+	color: #333333;
+	padding-bottom: 16px;
+  font-weight: 700;
+}
+.p_single_items strong {
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #333333;
+	padding-bottom: 16px;
+	display: block;
+  font-weight: 600;
+}
+.p_single_items h4 {
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #666666;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+.p_single_items span {
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	text-decoration-line: line-through;
+	color: #666666;
+	font-weight: 600;
+}
+.owl-theme .owl-nav {
+	margin-top: 0;
+}
+.owl-prev {
+	position: absolute;
+	top: 0;
+	left: -60px;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+	margin: auto !important;
+}
+.owl-next {
+	position: absolute;
+	top: 0;
+	right: -60px;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+	margin: auto !important;
+}
+.more_products{
+  padding-top: 72px;
+}
+.more_products h3 {
+	font-size: 36px;
+	line-height: 120%;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #804ED6;
+	padding-bottom: 4px;
+  font-weight: 600;
+}
+.more_products p {
+	font-size: 18px;
+	line-height: 120%;
+	text-align: center;
+	color: #1D0575;
+	padding-bottom: 48px;
+  font-weight: 500;
+}
+.more_products.text-center a {
+	background: #6FCF97;
+	border-radius: 4px;
+	max-width: 358px;
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 16px 24px;
+  transition: 0.5s;
+  font-weight: 600;
+}
+.more_products a:hover {
+	background: #3ECE7A;
+	transition: 0.5s;
 }
